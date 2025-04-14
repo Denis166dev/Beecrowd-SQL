@@ -1,0 +1,1 @@
+select products.name, providers.name from providers INNER JOIN products on providers.id = products.id_providers where 	id_categories = '6';
